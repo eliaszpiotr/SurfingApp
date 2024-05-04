@@ -7,80 +7,134 @@
 
 import SwiftUI
 import CoreData
+import MapKit
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
+    @State private var showAddSurfSpotForm = false
+    @State private var showExploreView = false
+    @State private var surfSpots: [SurfSpot] = []
+    @State private var cameraPosition: MapCameraPosition = .automatic
 
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+        VStack {
+            HStack {
+                Spacer()
+                Text("SurfApp")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding()
+                Spacer()
+            }
+            .background(.thinMaterial)
+            
+            ZStack {
+                Map(position: $cameraPosition) {
+                    ForEach(surfSpots, id: \.self) { spot in
+                        Marker(spot.name ?? "Unknown Surf Spot",
+                               systemImage: "figure.surfing",
+                               coordinate: CLLocationCoordinate2D(latitude: spot.latitude, longitude: spot.longitude)).tint(.red)
                     }
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+                .mapControls {
+                    MapUserLocationButton()
                 }
             }
-            Text("Select an item")
+            .cornerRadius(20)
+            .shadow(radius: 5)
+            .padding()
+            .frame(height: 600)
+            
+            Spacer()
+        }
+        .safeAreaInset(edge: .bottom) {
+            BottomNavigationBar(showExploreView: $showExploreView, showAddSurfSpotForm: $showAddSurfSpotForm)
+        }
+        .fullScreenCover(isPresented: $showExploreView) {
+            ExploreView()
+        }
+        .fullScreenCover(isPresented: $showAddSurfSpotForm, onDismiss: loadSurfSpots) {
+            AddView()
+        }
+        .onDisappear {
+            loadSurfSpots()
+        }
+        .onAppear {
+            loadSurfSpots()
         }
     }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
+    
+    private func loadSurfSpots() {
+        let fetchRequest: NSFetchRequest<SurfSpot> = SurfSpot.fetchRequest()
+        fetchRequest.sortDescriptors = [NSSortDescriptor(keyPath: \SurfSpot.name, ascending: true)]
+        do {
+            surfSpots = try viewContext.fetch(fetchRequest)
+            print("Surf spots loaded.")
+        } catch {
+            print("Failed to fetch surf spots: \(error)")
         }
     }
 }
 
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
+struct BottomNavigationBar: View {
+    @Binding var showExploreView: Bool
+    @Binding var showAddSurfSpotForm: Bool
 
-#Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    var body: some View {
+        HStack {
+            Spacer()
+            
+            Button(action: {
+                showExploreView = true
+            }) {
+                VStack(spacing: 3) {
+                    Image(systemName: "location.circle")
+                        .foregroundColor(.black)
+                        .font(.title2)
+                    Text("Explore")
+                        .font(.caption)
+                        .foregroundStyle(.black)
+                }
+            }
+            
+            Spacer()
+            
+            Button(action: {}) {
+                VStack(spacing: 3) {
+                    Image(systemName: "house.circle")
+                        .foregroundColor(.black)
+                        .font(.title2)
+                    Text("Home")
+                        .font(.caption)
+                        .foregroundStyle(.black)
+                }
+            }
+            
+            Spacer()
+            
+            Button(action: {
+                showAddSurfSpotForm = true
+            }) {
+                VStack(spacing: 3) {
+                    Image(systemName: "pin.circle")
+                        .foregroundColor(.black)
+                        .font(.title2)
+                    Text("Add")
+                        .font(.caption)
+                        .foregroundStyle(.black)
+                }
+            }
+            
+            Spacer()
+        }
+        .padding(.top)
+        .background(.thinMaterial)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView().environment(\.managedObjectContext, DataController().container.viewContext)
+    }
 }

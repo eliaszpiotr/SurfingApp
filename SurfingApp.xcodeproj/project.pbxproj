@@ -11,11 +11,16 @@
 		56E35C932BD578C90062B5FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35C922BD578C90062B5FE /* ContentView.swift */; };
 		56E35C952BD578CD0062B5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E35C942BD578CD0062B5FE /* Assets.xcassets */; };
 		56E35C982BD578CD0062B5FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E35C972BD578CD0062B5FE /* Preview Assets.xcassets */; };
-		56E35C9A2BD578CD0062B5FE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35C992BD578CD0062B5FE /* Persistence.swift */; };
 		56E35C9D2BD578CD0062B5FE /* SurfingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56E35C9B2BD578CD0062B5FE /* SurfingApp.xcdatamodeld */; };
 		56E35CA72BD578CD0062B5FE /* SurfingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CA62BD578CD0062B5FE /* SurfingAppTests.swift */; };
 		56E35CB12BD578CE0062B5FE /* SurfingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CB02BD578CE0062B5FE /* SurfingAppUITests.swift */; };
 		56E35CB32BD578CE0062B5FE /* SurfingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CB22BD578CE0062B5FE /* SurfingAppUITestsLaunchTests.swift */; };
+		56E35CC02BD57A600062B5FE /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CBF2BD57A600062B5FE /* DataController.swift */; };
+		56E35CE12BD58A450062B5FE /* SurfSpot+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CDF2BD58A450062B5FE /* SurfSpot+CoreDataClass.swift */; };
+		56E35CE22BD58A450062B5FE /* SurfSpot+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CE02BD58A450062B5FE /* SurfSpot+CoreDataProperties.swift */; };
+		56E35CE82BD58C830062B5FE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CE72BD58C830062B5FE /* ExploreView.swift */; };
+		56E35CEA2BD58C910062B5FE /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CE92BD58C910062B5FE /* AddView.swift */; };
+		56E35CEC2BD677D30062B5FE /* InteractiveMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35CEB2BD677D30062B5FE /* InteractiveMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +46,18 @@
 		56E35C922BD578C90062B5FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56E35C942BD578CD0062B5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E35C972BD578CD0062B5FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		56E35C992BD578CD0062B5FE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		56E35C9C2BD578CD0062B5FE /* SurfingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurfingApp.xcdatamodel; sourceTree = "<group>"; };
 		56E35CA22BD578CD0062B5FE /* SurfingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E35CA62BD578CD0062B5FE /* SurfingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingAppTests.swift; sourceTree = "<group>"; };
 		56E35CAC2BD578CE0062B5FE /* SurfingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E35CB02BD578CE0062B5FE /* SurfingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingAppUITests.swift; sourceTree = "<group>"; };
 		56E35CB22BD578CE0062B5FE /* SurfingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56E35CBF2BD57A600062B5FE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		56E35CDF2BD58A450062B5FE /* SurfSpot+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurfSpot+CoreDataClass.swift"; sourceTree = "<group>"; };
+		56E35CE02BD58A450062B5FE /* SurfSpot+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurfSpot+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		56E35CE72BD58C830062B5FE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		56E35CE92BD58C910062B5FE /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		56E35CEB2BD677D30062B5FE /* InteractiveMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,8 @@
 		56E35C842BD578C90062B5FE = {
 			isa = PBXGroup;
 			children = (
+				56E35CDF2BD58A450062B5FE /* SurfSpot+CoreDataClass.swift */,
+				56E35CE02BD58A450062B5FE /* SurfSpot+CoreDataProperties.swift */,
 				56E35C8F2BD578C90062B5FE /* SurfingApp */,
 				56E35CA52BD578CD0062B5FE /* SurfingAppTests */,
 				56E35CAF2BD578CE0062B5FE /* SurfingAppUITests */,
@@ -101,9 +113,12 @@
 				56E35C902BD578C90062B5FE /* SurfingAppApp.swift */,
 				56E35C922BD578C90062B5FE /* ContentView.swift */,
 				56E35C942BD578CD0062B5FE /* Assets.xcassets */,
-				56E35C992BD578CD0062B5FE /* Persistence.swift */,
 				56E35C9B2BD578CD0062B5FE /* SurfingApp.xcdatamodeld */,
 				56E35C962BD578CD0062B5FE /* Preview Content */,
+				56E35CBF2BD57A600062B5FE /* DataController.swift */,
+				56E35CE72BD58C830062B5FE /* ExploreView.swift */,
+				56E35CE92BD58C910062B5FE /* AddView.swift */,
+				56E35CEB2BD677D30062B5FE /* InteractiveMapView.swift */,
 			);
 			path = SurfingApp;
 			sourceTree = "<group>";
@@ -263,7 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E35C9A2BD578CD0062B5FE /* Persistence.swift in Sources */,
+				56E35CE82BD58C830062B5FE /* ExploreView.swift in Sources */,
+				56E35CC02BD57A600062B5FE /* DataController.swift in Sources */,
+				56E35CE12BD58A450062B5FE /* SurfSpot+CoreDataClass.swift in Sources */,
+				56E35CEC2BD677D30062B5FE /* InteractiveMapView.swift in Sources */,
+				56E35CE22BD58A450062B5FE /* SurfSpot+CoreDataProperties.swift in Sources */,
+				56E35CEA2BD58C910062B5FE /* AddView.swift in Sources */,
 				56E35C932BD578C90062B5FE /* ContentView.swift in Sources */,
 				56E35C9D2BD578CD0062B5FE /* SurfingApp.xcdatamodeld in Sources */,
 				56E35C912BD578C90062B5FE /* SurfingAppApp.swift in Sources */,
