@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567C15322BE770240052722C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C15312BE770240052722C /* DetailView.swift */; };
 		56E35C912BD578C90062B5FE /* SurfingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35C902BD578C90062B5FE /* SurfingAppApp.swift */; };
 		56E35C932BD578C90062B5FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E35C922BD578C90062B5FE /* ContentView.swift */; };
 		56E35C952BD578CD0062B5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E35C942BD578CD0062B5FE /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		567C15312BE770240052722C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		56E35C8D2BD578C90062B5FE /* SurfingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E35C902BD578C90062B5FE /* SurfingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingAppApp.swift; sourceTree = "<group>"; };
 		56E35C922BD578C90062B5FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				56E35CE72BD58C830062B5FE /* ExploreView.swift */,
 				56E35CE92BD58C910062B5FE /* AddView.swift */,
 				56E35CEB2BD677D30062B5FE /* InteractiveMapView.swift */,
+				567C15312BE770240052722C /* DetailView.swift */,
 			);
 			path = SurfingApp;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				56E35CE82BD58C830062B5FE /* ExploreView.swift in Sources */,
 				56E35CC02BD57A600062B5FE /* DataController.swift in Sources */,
 				56E35CE12BD58A450062B5FE /* SurfSpot+CoreDataClass.swift in Sources */,
+				567C15322BE770240052722C /* DetailView.swift in Sources */,
 				56E35CEC2BD677D30062B5FE /* InteractiveMapView.swift in Sources */,
 				56E35CE22BD58A450062B5FE /* SurfSpot+CoreDataProperties.swift in Sources */,
 				56E35CEA2BD58C910062B5FE /* AddView.swift in Sources */,
