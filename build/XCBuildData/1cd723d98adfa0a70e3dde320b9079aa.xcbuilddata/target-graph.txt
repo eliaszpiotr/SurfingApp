@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'SurfingAppUITests' in project 'SurfingApp'
+➜ Explicit dependency on target 'SurfingApp' in project 'SurfingApp'
+Target 'SurfingAppTests' in project 'SurfingApp'
+➜ Explicit dependency on target 'SurfingApp' in project 'SurfingApp'
+Target 'SurfingApp' in project 'SurfingApp' (no dependencies)

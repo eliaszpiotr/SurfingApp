@@ -83,18 +83,17 @@ struct CountrySpotListView: View {
 
     var body: some View {
         List(surfSpots, id: \.self) { spot in
-            NavigationLink(destination: DetailView()) {
+            NavigationLink(destination: DetailView().environmentObject(spot)) {
                 Text(spot.name ?? "Unknown Spot")
             }
         }
-        .navigationBarTitle("\(country) Surf Spots", displayMode: .inline)
+        .navigationBarTitle("\(country)", displayMode: .inline)
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: Button("Back") {
             presentationMode.wrappedValue.dismiss()
         }.foregroundColor(.red))
     }
 }
-
 
 
 struct ExploreView_Previews: PreviewProvider {

@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests-master.dia",
+    "emit-module-dependencies" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests-master.swiftdeps"
+  },
+  "/Users/eliasz/Desktop/SurfingApp/SurfingAppUITests/SurfingAppUITests.swift" : {
+    "const-values" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests.swiftconstvalues",
+    "dependencies" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests.d",
+    "diagnostics" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests.dia",
+    "index-unit-output-path" : "/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests.o",
+    "llvm-bc" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests.bc",
+    "object" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests.o",
+    "swift-dependencies" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests.swiftdeps",
+    "swiftmodule" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITests~partial.swiftmodule"
+  },
+  "/Users/eliasz/Desktop/SurfingApp/SurfingAppUITests/SurfingAppUITestsLaunchTests.swift" : {
+    "const-values" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests.swiftconstvalues",
+    "dependencies" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests.d",
+    "diagnostics" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests.dia",
+    "index-unit-output-path" : "/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests.o",
+    "llvm-bc" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests.bc",
+    "object" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests.o",
+    "swift-dependencies" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests.swiftdeps",
+    "swiftmodule" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex/SurfingApp.build/Debug-iphonesimulator/SurfingAppUITests.build/Objects-normal/x86_64/SurfingAppUITestsLaunchTests~partial.swiftmodule"
+  }
+}

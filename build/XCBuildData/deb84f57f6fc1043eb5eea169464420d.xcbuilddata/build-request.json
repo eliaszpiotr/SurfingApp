@@ -1,0 +1,205 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "dynamicReplacement"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "275611a9716da4226837206cb33068246ecbe3852ca306ee7501f29ce5c347b7",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator17.4",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "CLANG_COVERAGE_MAPPING" : "YES",
+              "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/CodeCoverage/ProfileData",
+              "DSTROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex",
+              "SYMROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "5B44E4EA-C8D7-48D9-8AE5-C79A1753BE4F",
+              "TARGET_DEVICE_MODEL" : "iPhone16,1",
+              "TARGET_DEVICE_OS_VERSION" : "17.4",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "275611a9716da4226837206cb330682438c57d671ad35b7bec0efed71d62af6a",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator17.4",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "CLANG_COVERAGE_MAPPING" : "YES",
+              "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/CodeCoverage/ProfileData",
+              "DSTROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex",
+              "SYMROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "5B44E4EA-C8D7-48D9-8AE5-C79A1753BE4F",
+              "TARGET_DEVICE_MODEL" : "iPhone16,1",
+              "TARGET_DEVICE_OS_VERSION" : "17.4",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "275611a9716da4226837206cb3306824ca54ebe1433b5e823f09b92ac264268f",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator17.4",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "CLANG_COVERAGE_MAPPING" : "YES",
+              "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/CodeCoverage/ProfileData",
+              "DSTROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Intermediates.noindex",
+              "SYMROOT" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Previews/iphonesimulator/SurfingApp/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "5B44E4EA-C8D7-48D9-8AE5-C79A1753BE4F",
+              "TARGET_DEVICE_MODEL" : "iPhone16,1",
+              "TARGET_DEVICE_OS_VERSION" : "17.4",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/eliasz/Desktop/surfapp.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone16,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.4",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/eliasz/Library/Developer/Xcode/DerivedData/surfapp-eokkxlizdatecdaulmhkbolqvdbm/CodeCoverage/ProfileData",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "5B44E4EA-C8D7-48D9-8AE5-C79A1753BE4F",
+          "TARGET_DEVICE_MODEL" : "iPhone16,1",
+          "TARGET_DEVICE_OS_VERSION" : "17.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

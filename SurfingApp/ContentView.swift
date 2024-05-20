@@ -41,7 +41,7 @@ struct ContentView: View {
                     MapUserLocationButton()
                 }
             }
-            .cornerRadius(20)
+            .cornerRadius(21)
             .shadow(radius: 5)
             .padding()
             .frame(height: 600)
